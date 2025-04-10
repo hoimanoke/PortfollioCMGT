@@ -1,0 +1,707 @@
+Wat de mark betekend
+x = gedaan en gelukt
+- = Het ging fout en gaat niet werken
+
+Taken voor project plattegrond-Wat-Zit-Waar
+
+x	- (Simpele) Canvas waarje de markers op kan tekenen
+x	- (Simpele) Markers aan maken (text symbool x en y)
+x	- (Simpele) Database toevoegen zodat de markers kunnen bewaart worden
+x	- (Simpele) Background image kan selecteren en de markers kan laten zien
+x	- (Simpele) Markers toevoegen verwijderen editen in javascript database en table
+x	- Waarshuwing en melding (ook een melden waar je de marker update name doet)
+x  	- Waar je klikt met je muis kan zien dat je daar hebt geklikt zodat je dan kan zien waar de marker komt
+x	- Markers eigen symbolen geven zodat je kan zien wat het is
+x	- Markers eigen grote kunnen veranderen zodat niet alles even groot is als de norm image 
+x	- (is er alleen is een simpele)Kan zien hoeveel dingen het zelfde symbool heeft (bv hoeveel brand alarmen er zijn)
+x	- Een schaal toevoegen zodat alles even groot is (p5.js scale or map)
+x	- (extra)Zoom in en Zoom out functie
+x	- option gebouw kiezen zodat een gebouw meerdere plattegronden hebben enzovoort
+x	- een admin page maken en een vistor page maken zodat vistor alleen kan scale en zodat het niet fout kan gaan dat met nieuwe maps en markers maken
+x	- kan zoeken in gebouw naar een plek bv receptie en dat die daar naar gaat
+x	- kan locken op een plattegrond de die alleen die laat zien door url
+x	- De Website proberen te veranderen zodat het op de tablets kan
+x	- Authentencation removen op viewmap (dat je daar niet in hoeft te loggen)
+x	- Kunnen zoeken in lock url en dat na ong 10 sec terug gaat
+x	- (Bug) De image niet groter mocht zijn dan 1mb wat onhandig is dus ga het veranderen naar 10mb 
+x	- Als de url gelockt is dat je de navbar niet kan gebruiken
+x	- Reset knoppen voor canvas en zoom
+x	- Iconen naar een eigen pagina veranderen
+x	- Auth maken zodat alleen admins dingen kunnen veranderen
+x	- Marker maken met een modals
+x	-(Bug) Je kan door de modal heen kliken waar door je geen marker kan toevoegen omdat die op de canvas klikt
+-	- Kan zien of een vergader ruimte bezet is met kleur bv rood bezet groen open dus like time wanneer die niet beschiktbaar is set red (miss later)(denk dat we dit niet gaan gebruiken)
+	
+	N:\KAM-zorg\BHV\Nijmegen kantoor\Archief\ontruimingsplattegronden\Plattegronden Nijmegen
+	
+Taken voor project plattegrond-Installatie
+
+x	- Kunnen aan vinken welke markers je wil laten zien en welke niet
+x	- Markers kunnen toevoegen op een tablet
+x	- dropdown voor type dan icoon
+x	- scale de icoonen op plategrond
+x	- zoom en markers kunnen plaatsen 
+x	- reload button dat alleen de canvas veranderd 
+x	- markers scalen op juist plek 
+x	- maak het dat het een error geeft als de x of y in de min is
+x	- als je type uit hebt gevinkt dat die dan ook niet die icoonen kan plaatsen
+x	- als je op de reload button klikt veranderen de markers niet
+x	- markers toevoegen laten werken op de tablets 
+	- Generate PDF? 
+	
+Taken KamerPlanner
+
+x	- Een log / logger system maken zodat die het in een txt file gaat zetten
+x	- Er moet een text bestaand kommen met wanneer de start button is gedurkt en wanneer gestopt
+x	- Er moet komen wanneer een meeting is gepland en door wie
+x	- (Bug) Er ziten meer dingen onder de scrollby
+x	- (Bug) De plaatjes worden niet gelaten zien in de public rooms kijk serverside appsettings
+x	- (Bug) Dat als je een short meeting aan maakte dat je een persoonneelnummer moest daar geven terwijl dat niet kan omdat het een short meeting is
+x	- Kamerplanner opschonen
+x	- Auto reload kamerplanner bij updates
+x	- De logger er inzetten + .net 8
+
+Taken DeTostiApp
+
+x	- Naam, aantal items 
+x	- items die je kan kopen
+x	- qr code scannen
+x	- kunnen zien wie wat heeft gekocht
+x	- Database maken
+x	- order systeem maken
+x	- auth dat gert jan dan de admin is 
+x	- de orderview naar index
+x	- qr naar modal en miss printen en dikke letters van naam
+
+Taken in Veiligheid maak toolbox
+	Azure DevOps: Project EasyKropman 
+	Eisen (probably):
+    - leidinggevende bij toolboxen:
+       x onderwerp,
+       x datum,
+       x locatie,
+       x gemaakt door,
+       x uitgenodigden,
+        status
+       x monteur zal zichzelf moeten kunnen toevoegen bij een toolbox
+       x maker van toolboxen kan achteraf valideren wie er wel / niet geweest is
+		
+	- Toevoegingen aan formulier:
+        x Medewerker kunnen kiezen die workshop / toolbox gaat geven
+        x locatie mag kostenplaats worden (gewoon een number field)
+        x uitgenodigden toevoegen (initieel medewerkers onder degene die het gaat geven)
+    - Toolbox:
+       x iemand kan toolbox starten, mensen uitnodigen.
+       x mensen krijgen link om te zeggen "ja, ben aanwezig" of "nope, <reden>"
+       x starter kan checken of diegene daadwerkelijk aanwezig zijn geweest
+
+
+My own small notes/links
+	
+	-https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/scm-services-prevent-automatic-startup-of-an-instance?view=sql-server-ver16
+	
+	-p5.js https://p5js.org/
+	-p5 performance https://github.com/processing/p5.js/wiki/Optimizing-p5.js-Code-for-Performance
+	-https://www.entityframeworktutorial.net/
+	-https://news.ycombinator.com/news
+	-citrix workspace
+	-Robo 3T https://robomongo.org/
+	-css grid https://css-tricks.com/snippets/css/complete-guide-grid/
+	-https://www.smarterasp.net/
+	-https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator
+	
+	-xunit https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+	-BlazorTable: https://github.com/IvanJosipovic/BlazorTable (Opens in new window or tab)
+	-Blazored.Modal: https://github.com/Blazored/Modal (Opens in new window or tab)
+	-Blazored.Toast: https://github.com/Blazored/Toast (Opens in new window or tab)
+	-Blazored.Typeahead: https://github.com/Blazored/Typeahead (Opens in new window or tab)
+	
+	-https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops&tabs=yaml-editor
+	-C# operators and expressions https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
+	-C# identifier naming rules and conventions https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names
+	-C# Custom validation https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/validation?view=aspnetcore-8.0
+	
+	-https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet.html
+	-https://github.com/zxcvbn-ts/zxcvbn?tab=readme-ov-file
+	
+	-MAUI
+	-https://learn.microsoft.com/en-us/dotnet/architecture/maui/introduction?toc=%2Fdotnet%2Fmaui%2Ftoc.json&bc=%2Fdotnet%2Fmaui%2Fbreadcrumb%2Ftoc.json&view=net-maui-8.0 
+	-Here is also a link of a pdf book https://dotnet.microsoft.com/en-us/download/e-book/maui/pdf
+	
+	-MAUI blazor
+	-https://learn.microsoft.com/en-us/dotnet/maui/user-interface/pages/tabbedpage?view=net-maui-8.0
+	-https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/debug-on-emulator?view=net-maui-8.0
+	-https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+	-https://learn.microsoft.com/en-us/dotnet/maui/user-interface/menu-bar?view=net-maui-8.0
+	-https://learn.microsoft.com/en-us/dotnet/maui/user-interface/menuitem?view=net-maui-8.0
+	-https://learn.microsoft.com/en-us/dotnet/maui/user-interface/pages/flyoutpage?view=net-maui-8.0
+	-https://learn.microsoft.com/en-us/dotnet/maui/android/device/setup?view=net-maui-8.0
+	-https://github.com/dotnet-presentations/dotnet-maui-workshop/tree/main/Part%203%20-%20Navigation
+	-https://github.com/dotnet/maui-samples/tree/main
+	-https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/flyout?view=net-maui-8.0
+	-https://learn.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/flyout
+	
+	
+	-MAUI andriod
+	-https://www.youtube.com/watch?v=qs1otgknDHA
+	
+	-connect a andriod phone https://learn.microsoft.com/en-us/dotnet/maui/android/device/setup?view=net-maui-8.0
+	-https://www.youtube.com/watch?v=s-BI5DInNeQ
+	
+	-maui camera
+	-https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device-media/picker?view=net-maui-8.0&tabs=windows
+	-https://github.com/hjam40/Camera.MAUI
+	-https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device-media/picker?view=net-maui-8.0&tabs=android
+	
+	-fingerprint https://github.com/smstuebe/xamarin-fingerprint
+	-https://cedricgabrang.medium.com/biometric-authentication-in-your-net-maui-application-dc35ec0c1f92
+	-gps https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device/geolocation?view=net-maui-8.0&tabs=android
+	-maui ofline https://learn.microsoft.com/en-us/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/offline
+	
+	-https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/communication/authentication?view=net-maui-8.0&tabs=android
+	
+	-google store upload https://learn.microsoft.com/en-us/dotnet/maui/android/deployment/publish-google-play?view=net-maui-8.0
+	
+	-MAUI app 
+	-https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/tabs?view=net-maui-8.0
+	
+	-bunit https://bunit.dev/
+	-https://www.youtube.com/watch?v=1Cx6JMO_Wkk
+	
+	-https://austinhenley.com/blog/challengingprojects.html
+	
+	-linq functie https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.concat?view=net-8.0
+	
+	-AI
+	-https://learn.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet?view=azureml-api-1
+	
+	-azure ai 
+	-computer vision https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/
+	-https://learn.microsoft.com/en-us/training/browse/?expanded=dynamics-365&subjects=data-ai&skip=30
+	
+	-snyk https://snyk.io/
+	
+	-esp 32
+	- ttgo
+	-planttower
+	-ldr 
+	-7 Segment LED Displays
+	-https://platformio.org/platformio-ide
+	-https://www.hobbyelectronica.nl/product-categorie/kits/
+	-https://www.youtube.com/watch?v=sI3LLa0uKlI
+	
+	-hanmatek dos1102
+	
+	-c++
+	-https://code.visualstudio.com/docs/languages/cpp
+	-cmake
+	-https://cmake.org/cmake/help/latest/command/set.html
+	-https://github.com/ttroy50/cmake-examples/tree/master/01-basic
+	-debian
+	-https://www.debian.org/
+	-https://en.cppreference.com/w/cpp
+	-https://www.parashift.com/c++-faq-lite/
+	-https://randomnerdtutorials.com/esp32-digital-inputs-outputs-arduino/
+	-minimax
+	-tesseract
+	-https://tesseract-ocr.github.io/tessdoc/Compiling.html
+	-https://blog.eldernode.com/install-and-use-tesseract-ocr-on-debian/
+	-https://tesseract-ocr.github.io/tessapi/4.0.0/a00014.html
+	
+	-https://docs.opencv.org/4.x/dd/ded/group__ml.html
+	
+	-https://stackoverflow.com/questions/57483/what-are-the-differences-between-a-pointer-variable-and-a-reference-variable
+	
+	-Qt Creator
+	-https://www.qt.io/product/development-tools
+	
+	-Debain/console input 
+	-sudo apt update && sudo apt full-upgrade && sudo apt install ffmpeg (dit doen voor de ding hier onder)
+	-ffmpeg -i vid0.mp4 output/iteratie_%04d.png (foreach fram in vidoe make a img)
+	-make && time ./conway image 1000 (run the code + how long it takes)
+	-cd repos/conway/build/ (go to file)
+	-code .
+	-https://linuxhint.com/
+	
+	-instal debain https://learn.microsoft.com/en-us/windows/wsl/install
+	-Install WSL Command uitvoeren
+	-En dan Debian vanuit de Microsoft Store installeren
+	
+	-https://learn.microsoft.com/en-us/windows/wsl/setup/environment
+	
+	-download opencv sudo apt update && sudo apt full-upgrade && sudo apt install libopencv-dev libopencv-contrib-dev
+	
+	-https://github.com/Kofybrek/Flappy-bird-AI/tree/Main flapy bird ai c++ 
+	
+	-vs net upgrader https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.upgradeassistant
+	
+	-hack the box https://www.youtube.com/watch?v=bPv5pb7AcYs
+	
+	-hackerone https://www.hackerone.com/
+	-have i been pwned https://haveibeenpwned.com/
+	-portswigger https://portswigger.net/
+	-beEF
+	-honeypot
+	-canary tokens https://canarytokens.org/generate
+	
+	-https://wazuh.com/
+	
+	-https://www.codecademy.com/catalog/subject/game-development
+	-https://www.fidgetcube.nl/collections/all
+	-https://www.kickstarter.com/projects/raycue/128k
+	-virtualbox
+	-ublock orgin
+	
+	-rockstar https://codewithrockstar.com/
+	
+	-https://stackoverflow.com/questions/50994135/cmakefile-for-using-tesseract-and-opencv/51059723
+	-https://stackoverflow.com/questions/23506105/extracting-text-opencv/23672571#23672571
+	
+Video's
+
+	- https://www.youtube.com/watch?v=TaPdgj8mucI&ab_channel=WebDevSimplified
+	- https://www.youtube.com/watch?v=4kK9tX_u33U
+
+
+VoorBeeld maui nav bar 
+	plaats dit in mainpage
+	<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.MainPage"
+             x:Name="content"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+				<!--This is what you need for desktop -->
+				<ContentPage.MenuBarItems>
+					<MenuBarItem Text="Menu">
+						<MenuFlyoutItem Text="Dotnet"
+									Clicked="Dotnet">
+						</MenuFlyoutItem>
+						<MenuFlyoutItem Text="Kamerplanner"
+									Clicked="Kamerplanner">
+						</MenuFlyoutItem>
+						<MenuFlyoutItem Text="ict"
+						Clicked="ict">
+						</MenuFlyoutItem>
+						<MenuFlyoutItem Text="ict"
+						Clicked="uren">
+						</MenuFlyoutItem>
+					</MenuBarItem>
+				</ContentPage.MenuBarItems>
+    <ContentPage.Content>
+        <VerticalStackLayout Spacing="20" Padding="20" Background="#2BD446">
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                <Button Text="WebView to MAUI" Clicked="Dotnet"/>
+                <Button Text="MAUI to WebView" Clicked="ict"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
+
+	en dit in de mainpage .cs
+	private async void ict(object sender, EventArgs e)
+	{
+    WebView webView = new WebView();
+    webView.Source = "https://ict.kropman.nl/";
+    content.Content = webView;
+	}
+	
+
+(Week 1)
+
+ik was een week later begonnen dan de andere stage dus die waren eigenlijk al begonnen 
+ik moest eerst beginnen met tutorials te kijken om Blazor te leren kennen maar ik had gezegt dat ik al aan een project met Blazor heb gewerkt 
+alleen ik kon nog niks doen omdat ik nog geen admin account had dus ik kon niks instaleren
+maar die dag daarna had ik een admin account en heb alles geinstalleerd
+toen heb ik een opdracht/project gekregen dat ik moest gaan maken 
+het project het Plattegrond-Wat-Zit-Waar
+wat dit progamma eigenlijk moet doen is dat je een plattegrond hebt zodat je kan zien wat/wie waar zit als het waren
+toen zag ik het een beetje hoe het er uit moest zien in me hoofd en dat het eigenlijk het zelfde moest worden als google maps
+en heb het project gemaakt omte kunnnen te beginnen
+in het begin heb ik gekeken hoe ik het ongeveer moest maken to had ik bedacht om een component te maken zodat je de plattegrond kan zien (image)
+dat werkte en toen bedacht ik om een zoom/drag functie te maken om te kunnen inzomen en de image te kunnen verplaatsen 
+toen ik dat had gemaakt beseft ik dat die component wel leuk en aardig is maar nog steeds geen markers kan maken
+dus ging ik maar op zoek om te kijken hoe dat moest maken
+naar deze dingen heb ik naar gekeken.
+
+1. HTML5
+	dit kreeg ik als tip van Gert-Jan om hier naar te kijken 
+	dit was een handige tip was omdat ik toen HTML Canvas tegen kwam
+
+2. HTML Canvas
+	eigenlijk dat nodig heb om te kunnen tekenen op de website
+	alleen het werkte niet echt op blazor dus ging ik veder kijken
+
+3. Blazor extensions(Nuget installation)
+	ik had veel blazor extensions gevonden voorbeelden:
+	Leaflet, Google maps API, Mapsui
+	alleen ik had eigenlijk bedacht
+	om geen Nuget installation te gaan te gebruiken dus heb verall in de extension zelf gekeken en zag dat ze niet heel erg lieten zien hoe ze het hadden gemaakt
+	maar wat ik wel zag is dat ze soms een klein beetje javascript gebruikte om de coordinaten toe te voegen om de marker te maken
+
+4.JavaScript
+	ik had toen maar gekeken naar javascript en zag dat HTML Canvas er bij werkte en had toen besloten om me plattegrond te gaan maken in javascript
+	toen ik dat in de Daily Retrospective gezegt dat ik nog niet echt uit kwam hoe ik die plattegrond moet gaan makken en had gezegt waar ik al naar had gekeken 
+	en dat ik uit kwam op javascript
+	toen kwam Jason de dag daarna om even met me mee te kijken en toen had die een oud project laten zien wat een beetje leek op wat ik wouw gaan maken
+	dus toen had ik maar gekeken naar ze project gekeken en zag dat die P5.js gebruikte
+
+5. P5.js
+	dus daarna heb ik gekeken hoe P5.js werkte op hun website en vond het erg handig om voor mijn website te gaan gebruiken 
+	het werkte ook op blazor zodat ik een soort van HTML Canvas kan gebruiken door deze progamma te gebruiken 
+
+(Week 2)
+
+toen heb ik wat gedeeltes gekopieerd van Jason oude project om de basic van het progamma te laten werken
+daarna heb ik gekeken hoe Jason's project werkten en gekeken wat ik kan gebruiken voor mijn progamma
+en wat er al in stond is hoe ik de background kan veranderen en hoe de mouse movement werkte op de canvas
+het werkte een beetje maar niet helemaal omdat ik was vergeten om zijn CSS stukje te kopiëren en daarna werkte dat
+daarna ik de coordinaten van de canvas kan krijgen 
+het duurde ook een tijdje voordat ik wist hoe dat werkte maar op een geven moment wist ik hoe dat werkte + (kreeg ook hulp van Jason hoe het werkte)
+alleen wist ik nog niet hoe ik dan iets moest gaan plaatsen en heb toen eigenlijk op google een tijdje gekeken hoe het werkte maar kon het niet echt vinden 
+en op een geven moment had ik het maar aan Jason gevraagt en die heeft het me uitgelegd 
+hoe dat werkte en toen was het dus dat als je op de canvas klikte dat daar meteen een (basic)marker kwam
+ik had bedacht om een add marker button te gaan maken zodat er text bij de marker moest gaan komen 
+dat werkte niet echt dus vroeg het aan Jason en toen hebben we dat werkent gemaakt
+toen ging ik alvast een simpele Entitie gemaakt zodat ik kan zien wat later in de database moet gaan
+de Entities ziet er voor nu zo uit:
+
+Entitie van de Image
+public class Image
+{
+    public int Id { get; set; }
+    public string? ImageUrl { get; set; }
+    public Marker? Markers { get; set; }
+}
+
+Entitie van de Marker
+public class Marker
+{
+    public int? Id { get; set; }
+    public string? Name { get; set; }
+    public int? x { get; set; }
+    public int? y { get; set; }
+}
+
+ik heb ze een beetje geprobeert om de Entitie aan de add marker button soort van aan elkaar te koppelen
+ik had bedacht om dan de X en Y coordinaten te krijgen en die in me C# file te krijgen dat lukte niet echt en had het toen aan Gert-Jan gevraagt
+omdat ik het niet kon vinden hoe ik een value van javascript naar blazor te sturen en toen heeft hij me wat links door gestuurd om me op weg te sturen 
+en hij had ook gezegt dat ik een een klein dag boekje moest gaan schrijven 
+zodat als lorenz bijvoorbeeld zegt wat heb je allemaal op stage gedaan dat ik dan deze file kan sturen naar hem
+daarna ging ik weer veder progammeren en het is gelukt om de X en Y coordinaten te kunnen zien in me C# file te zien 
+waardoor ik me marker nu ook in de database later er in kan gooien
+daarna heb ik een Update of Delete gemaakt dat ging vrij snel om te maken want ik doe het nu in een list en later kan dat nog misschien worden veranderd
+me branch geprobeert te pushen maar moest eerst dingen veranderd
+toen newe branch gemaakt om aan me database te gaan werken
+
+(Week 3)
+
+ik heb bedacht dat het misschien handiger is om de image in de wwwroot opteslaan want 
+dan kan die makkelijker de image vinden dan als die heb moet gaan zoeken in de database 
+dus het is een dynamic image die dan moeten laten zien worden in de HTML canvas
+
+Entitie van de Image ziet er nu zo uit 
+public class Image
+{
+    [Key]
+    public int Id { get; set; }
+    public string ImageName { get; set; } = string.Empty;
+    public string ImagePath { get; set; } = string.Empty;
+    public List<Marker> Markers { get; set; } = new List<Marker>();
+}
+
+Entitie van de Marker
+public class Marker
+{
+    [Key]
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public int XMarker { get; set; }
+    public int YMarker { get; set; }
+    public int ImageId { get; set; }(deze is misschien later niet nodig maar ik vind het fijn om te zijn welke marker bij welke image hoord)
+}
+nu moet ik een repository maken voor de image en de marker maar die kunnen in een repository omdat marker een child is van de image
+toen een de Add, Update, Remove, GetAllValue, GetValueByPath in de Repository gemaakt en dingen er omheen omhet te laten werken en dat het in de database word veranderd
+daarna een Pull request gemaakt veel commands gekregen dus moest veel veranderen maar dat is gelukt 
+en daar ook bij een nieuwe project dat ik kan gebruiken als iemand te lang overdoet met approven en zegt waiting for changing 
+en een vergadering heeft of iets dat ik dan niet niks doe maar aan dat project kan werken
+dus een nieuwe branch aan gemaakt deze heet UserAlert want nu ga ik beginnen met error checks en alert popups
+
+(Week 4)
+
+ik wil dat als ik de naam van een marker wil gaan veranderen dat die dat doet in een popups scherm
+daarvoor ga ik blazored modals voor gebruiken omdat we kropman die ook gebruikt als components (gedaan)
+nu maken dat waar je klikt kan zien dat je daar hebt geklikt zodat je dan kan zien waar de marker gaat komen (gedaan)
+ik ga nu een voorbereiding maken voor maker om een symbool te geven want ik wil nog niet een pull request doen
+omdat de vaste medewerkers een cursus hebben en dan kunnen ze niet snel me pull request nakijken en kan geen vragen stellen
+maar woensdag is de cursus af gelopen dus dan doe ik de pull request
+pull request gedaan moest een paar kleine dingen veranderen nu ga ik beginnen aan MarkerSymbolen
+
+Nu moet ik kijken naar
+x	- Hoe ik een image toevoegen in de database
+x	- Hoe ik de marker icon laat zien op de plattegrond
+
+(Week 5)
+
+ik moet nu gaan kijken hoe ik de groote verander van de image's omdat de image's niet allemaal even groot zijn
+dus ik denk dat ik de width en height mee geef aan de data base zodat die ze daar aan kan veranderen 
+als je de inputfile doet dat je de width en height ziet in een input zodat je weet hoe groot die nu is 
+wat ook een handig is dat er een preview image is zodat je kan zien hoe groot die image is als je de pixels veranderd
+misschien ook handig om de icon te kunnen verwijderen en te editen
+pull reqeust gemaakt even gekeken naar Kammerplanner maar ik snap niet echt hoe die gemaakt is
+pull reqeust gedaan paar dingen veranderd
+nu denk ik beginnen met Kan zien hoeveel dingen het zelfde symbool heeft (bv hoeveel brand alarmen er zijn)
+of een zoom in en zoom out dit moet ik nog wel vragen aan gert jan of die dit wil
+de zoom functie is extra maar ik ga het proberen 
+het werkt een beetje alleen de background zoomde niet mee maar ik heb een paar dingen geprobeert en het werkt nu wel
+dus hij zoomd nu wel in en uit alleen moet ik iets verzinnen dat het in zoomd op een spesefieke plak in zoomd of iets
+een de zien hoeveel items je hebt op de plattegrond werkt alleen is vrij simpel dus moet ik misschien veranderen
+nu aan de slag met option gebouw kiezen zodat een gebouw meerdere plattegronden hebben enzovoort
+en ik krijg 2 tablets zodat ik het kan proberen te maken dat het op de tablets werkt en voor die 
+kamerbezit ding kan proberen en laten zien hoe en wat het moet gaan werken
+
+(Week 6)
+
+ben nu bezig om bie building functie helemaal te laten werken zodat je plattegronden kan toevoegen bij de building en plattegrond kan bewerken en verwijderen
+dan nog maken dat je buildings kan verwijderen misschien kan bewerken
+nu weer kijken hoe ik de canvas kan veranderen op de ene page en op de andere wel
+ik ben naar Dennis gegaan om me project te laten zien omdat hij het project heeft bedacht om te maken
+toen wouw die dat je kan locken op een plattegrond de die alleen die laat zien door url en wouw dat je kon zoeken in gebouw naar een plek bv receptie en dat die daar naar gaat
+ik ga nu beginnen met dat je kan locken op een plattegrond de die alleen die laat zien door url
+daarna ga ik beginnen met zoeken in gebouw naar een plek bv receptie en dat die daar naar gaat
+toen pull reqeust gemaakt en toen gecommit
+moet nu wachten op een test pipeline dus ga nu beginnen met kamerplanner
+er moet een text bestaand kommen met wanneer de start button is gedurkt en wanneer gestopt
+er moet komen wanneer een meeting is gepland en door wie
+alleen ik weet nog niet echt hoe dit project werkt dus moet daarna gaan kijken 
+ik denk dat ik een log / logger system moet gaan maaken zodat wanneer je op start drukt dat die dan de data in een txt file zet
+dat is nu gelukt met de hulp van gert jan want ik kwam er niet uit dus had het hem maar gevraagt en toen hadden we dat gemaakt
+
+(Week 7)
+
+Ik heb all dingen die in de text file moet komen toegevoegd en toen een pull reqeust gemaakt alleen iedereen is zo wat op vakantie dus het gaat niet zo snel
+toen dat gedaan en dat het nog onhandig is om door tepushen omdat we niet echt weten 
+hoe Gert-Jan het wilt waardoor ik niet echt wist wat ik moest doen dus 
+toen aan Jason gevraagt en die wouw dat ik 2 buttons voor hem maakte in een project maar dat was niet zo moeilijk
+daarna moest ik een email sender voor hem maken dat dan een mail naar je stuurt om je order gegevens te hebben in een mail
+kwam Gert-Jan ook nog aan dat er een soort van bug zit in kammerplanner dat als je scrolld dat je niet alles ziet
+een Pull reqeust gemaakt voor email sturen en toen krijg ik te horen van Gert-Jan dat de JWT token anders moet
+toen de bugs van kammerplanner gedaan en het probleem was verall css dus toen dat gedaan
+daarna ging ik weer terug naar plattegrond-Wat-Zit-Waar 
+om de search function te laten werken op lock url en dat die dan 10sec wacht en dan terug gaat
+pull reqeust ervoor gemaakt veel commands er op gekregen
+
+(week 8)
+
+ik heb de pull reqeust gepushed
+toen heb ik een bug gevonden dat de image niet groter mocht zijn dan 1mb wat onhandig is 
+dus ga het veranderen naar 10mb en als je dan een image van 10mb of groter wil tovoegen moet je naar ict-i
+daarna ben ik langs dennis gegaan en gevraagt wat er bij moet komen en wist het niet echt omdat er als 
+bijna alles bij is dat de plattegrond moet hebben het was alleen nog bij de url lock dat je de navbar niet kan gebruiken
+dus ben daar aan begonnen dacht dat het vrij makkelijk is maar het is vrij ingewikkelt dus ging bij
+hem langs zen zij dat die het ongeveer zo kan doen en dat dan gedaan en toen werkte het 
+er zat nog een bug in kamerplanner dat als je een short meeting aan maakte dat je een persoonneelnummer 
+moest daar geven terwijl dat niet kan omdat het een short meeting is dat gedaan
+daarna een reset knoppen voor canvas en zoom maken
+ik heb ook een nieuw project gekregen dat is DeTostiApp die applicatie is voor bij de koelkast
+daar hebben we nu een papiertje hangen met een naam van iemand en aantal dat die heeft gekocht
+dat willen we nu gaan veranderen naar een applicatie
+heb de database gemaakt en een pull reqeust ervoor gemaakt
+toen de modals toegevoegd en dan weer pull reqeust
+daarna begonnen aan qr code
+ook een bug gevonden in plattegrond want als je op de tablet wifi zit kan je maar naar 2 urls dat zijn kamerplanner en mijn plattegrond 
+me p5.js is met een link aan gemaakt om te werken dus dan moet ik even de packes op me project zetten zodat die hem daar niet heen hoeft te linken
+
+(week 9)
+
+ben verder gegaan met DeTostiApp en het bleek dat me database er raar deed dus ging dat eerst fixen
+ook weer veder gegaan met het order systeem want ik dacht eerst dat het makkelijk te zijn meer dat is het toch niet dus ga daarmee veder
+daarna die packages veranderd op plattegrond-Wat-Zit-Waar dus toen stonden er 2 pull request open
+er bleek weer een error te zijn in plattegrond-Wat-Zit-Waar omdat er een css bestaand was waar die niet bij kon
+toen de plattegrond-Wat-Zit-Waar naar master gedaan want vrij wel alles er van is af
+ook bleek er nog een issue dat de marker niet exact werd geplaatst dus dat is veranderd 
+toen was het zo dat ik een saldo had gemaakt maar Gert-Jan wil dat ik bij hou hoeveel je betaald hebt dus moest dat gaan veranderen
+ik denk nu dat Order van de tosti app nu werkt dus heb daarvoor een pr van gemaakt
+
+(week 10)
+
+ik ben begonnen met de kamerplanner bug die dus blijkbaar toch niet gefixd was waar door ik eigenlijk vrijwel alle css van kamerplanner heb
+moeten veranderen dus daar was ik vrij lang mee bezig en toen daarvoor een pr voor gemaakt en hoop dat die nu wel werkt
+ik moet deze week ook Gert-Jan lastig gaan lostig vallen met een tussen beordeeling 
+ik heb deze week ook een onverwachts examen gekregen waar ik donderdag een moet om hem te gaan maken
+toen een gesprek gehad met Gert-Jan over DeTostiApp en over de omgeving die moet krijgen 
+dat de scrollbybug klaar is en dat ik eigenlijk de kamerplanner kan opschonen
+en we hadden het nog over plattegrond dat daar nog dingen kunnen veranderd worden dus daar heb ik meer issue's voor
+ik heb ook gevonden waarom als je een appiontment wil de toevoegen op kamerplanner 
+het is dat die hem niet auto reload als je hem hebt gemaakt maar hij update als de timer klaar was elke 1.5sec
+ook ben ik nu eindelijk klaar met kamerplanner opschonen want er zat erg veel rotzooi in dus een pr voor gemaakt en daar nog wat comments voor gekregen
+nu ga ik beginnen aan de ideeen die Gert-Jan gaf voor plattegrond
+ook heb ik een tussenberoodelinng gedaan met Gert-Jan en heeft hij mij ook nog ideeen gegeven voor de tosti app 
+dus toen was ik daaraan begonnen en was vergeten dat ik een nog een branch had op plattegrond
+maar voor deze ideeen 
+	- auth dat gert jan dan de admin is 
+    - de orderview naar index
+	- qr naar modal en miss printen en dikke letters van naam Stuff
+heb ik nu een pr voor gemaakt
+nu ga ik weer terug naar plattegrond
+Bug als ik een maker wil maken op de plattegrond dan klikt die nog steeds op de canvas
+
+(Week 11)
+
+vandaag weer verder aan Plattegrond
+het blijkt dat add marker met een modal niet gaat werken want 
+mijn javascript is sterker dan modal dus dan kan die geen naam toevoegen en icon file selecteren
+pr gemaakt met dat die icon een eigen pagina heeft en de Auth van admin 
+het bleek ook dat er in kamerplanner blijkbaar weer css files links hadden 
+naar andere dingen waardoor die niet kan open want de tablet wifi kan maar naar 3dingen
+daarna gevraagt aan jason of het misschien toch kan met marker toevoegen als je erop klipt en toen had die dat gevonden
+ook nog de tosti app geupdate met admin roll zodat je die in auth kan krijgen
+dat ook nog doen voor plattegrond zodat niet iedereen plattegronden kunnen bewerken
+ik heb geprobeert om de tosti app naar .net 8 tekrijgen alleen het probleem was dat 
+azure vmimage nog niet .net 8 support dus de applicatie staat wel all ready om naar dev te kunnen
+toen kwamen er ook nog overall vulnerabilities packages dus die moest ik bij alle 3 de projecten verwijderen
+toen nog gevraagt aan gert-jan wat ik kan doen en die zij dat ik alvast kon beginnen aan het ding voor wim dat is plattegrond-Installatie
+dus nu even een verschill maken tussen de 2 projecten
+ook weer gekijken naar .net 8 met dennis en toen hadden we wat dingen veranderd aan de pipeline en toen werkte het wel dus we kunnen overstappen naar .net 8
+daarna een pr voor dat verschill in plattegrond gedaan
+er was ook weer een bug in plattegrond-Wat-Zit-Waar dus die moest er uit toen pr
+toen een begon gemaakt voor plattegrond-Installatie type
+gemaakt en werk liep eerst tegen aan dat de checkbox funkey deed toen bleek het in de js te zitten
+
+(Week 12)
+
+vandaag eerst naar me pr's gekeken op de ene had ik wat comments op de andere weer niet
+dus die even goed gemaakt en toen bleek dat er weer een soort van bug zit in plattegrond dus die geprobeert er uit te halen
+daarna begonnen aan dat je op een tablet een marker kan maken op een tablet
+ik denk dat je nu op een tablet een marker kan toevoegen weet niet echt 100% maar denk dat die werkt
+toen gekeken naar de scrollbar die het niet doet op linux alleen het probleem is dat de tablet wifi niet op de test om geving komt
+er zat een bug in kamerplanner dat als je een reservation had geplant dat die hem niet meteen update dus dat gefixt
+de dropdown van icoon type is af en daar is weer een pr voor
+toen had gert-jan nog wat commentaar er op gegeven
+in de tussen tijd had ik ook gekeken naar de auto reload die zit nu in kammerplanner
+en daarna gekeken naar de logger maar die had .net 7 nodig dus toen had ik er maar .net 8 van gemaakt alleen moet wacht tot maandag want dan zijn de omgeving naar .net ingesteld
+dus nu weer veder aan de comments van gert-jan en de pr
+en toen bleek dat er een bug in kamerplanner zit aan de server kant maar daar voor heb ik een logger nodig maar die komt er toch maandag in 
+en dat de tosti app niet op een extern server word gezet dus heb het eigenlijk voor niks gemaakt
+
+(Week 13)
+
+nu verder aan de plattegrond want gert-jan wouw meer dingen /functies erop
+de zoom in en dan marker plaatsen is er lastig om te maken 
+uit eindelijk moest ik er veel om hakken en dan weer opnieuw bouwen als het waren
+dus ben daar vrij lang mee bezig geweest maar nu werkt die ongeveer wel denk ik
+en had ook nog geprobeert om die bug dat in kammerplanner zat dat de meetings soms null was was erg raar want de kamerplanner gaf geen errors
+
+(Week 14)
+
+vandaag ga ik weer verder me scale van markers zodat als je een groote image hebt dat ze ong het zelfde staan
+dat is wat makkelijker te maken denk ik dan de dat je zoom in en dan de marker plaatst
+een pr voor gemaakt en paar comments veranderd 
+ik wat van de logger dat in kammerplanner zit er uit gooien
+gevraagt aan gert-jan en die had een paar dingen die ik anders moet zetten en wouw dat je zelf de canvas kan reloaden
+daarna wou gert-jan zo van jij wil toch ook c++ waar op ik ja zij dus daar ben ik nu mee bezig 
+eerst met platfrom.ini om led aan en uit te zetten en toen ook nog een ldr
+nu doen we het met wsl en debain 
+ cd repos/conway/build/
+make && ./conway
+
+(Week 15)
+
+vandaag eerst begonnen om alle dingen op master te zetten van plattegrond en kammerplanner
+er zodat ook nog een error in plattegrond die ik moest fixen
+en daarna weer begonnen aan game of life om het in een txt file te krijgen en 
+vaak moeten wacht op arthur voor me prs om ze dan na te kijken
+maar als ik moest wacht ging ik bezig geweest met esp32 
+
+(Week 16)
+
+ben nu bezig om the game of life op een video te maken
+toen weer wacht op arthur om me pr na tekijken
+dus ging ik weer verder met esp32 
+https://www.youtube.com/watch?v=ozhHrzOXZkI
+toen vroeg gert jan of ik naar plattegrond installatie wouw kijken want die heeft een test omgeving
+dus toen bleek dat authorization er niet in zat en krijg nog wat errors dus die moet ik gaan fixen
+dit is hoelang het nu duurt voor dat de video van game of life duurt
+real    6m49.924s
+user    7m36.176s
+sys     0m2.337s
+dit moet sneller worden 
+
+(Week 17)
+
+Kerst / oud en nieuw vakantie
+
+(Week 18)
+
+Eerst weer even op starten en kijken waar ik mee was gebleven
+toen wist ik dat het scalen van de markers op de canvas het niet echt deed dus ging ik daar naar kijken of 
+ik dat kan oplossen maar toen kreeg ik weer problemen met de zoom functie dus ben nu dat weer proberen te oplossen
+uit eindelijk weer kunnen fixen en toen begongen aan scalen van markers maar dat ging vrij makkelijk want je 
+pakt de originale width en height en deelt het door de canvas width en height en dat is eigenlijk de scale die je moet gebruiken 
+daarna zat er nog een bug in met het disablen van de zoom buttons 
+toen was het eigenlijk bugs fixen en dan naar test gooien en dan kijken wat er nog meer fout kan gaan en repeat 
+buffer.save("a.jpg");
+
+(Week 19)
+
+vandaag wouw ik beginnen met weer het testen van installatie maar de test omgeving lag er uit 
+dus ben ik maar veder aan het gaan me c++ 
+ben nu bezig met een image dat de image dan read voor text en dat dan in de console zet die werkt soort van alleen nu kijken of die groote text size kan lezen en fonts 
+opeen geven moment was me test omgeving weer aan dus ging ik weer testen en kreeg ik alleen nog warnings over de database dus dat was nice
+dus dan zou ik het dan aan die persoon laten zien hoe het werkt en hoop dat die dat dan wil gebruiken en meer features wil toevoegen
+ik heb nu weer een probleem met me game of life die moeilijk is om te achter halen wat er fout gaat en toen had ik aan arthur gevraagt of die me kon helpen maar hij wist niet goed
+hoe die het moest oplossen dus heeft die het ge repoduceerd op zijn computter om er achter te komen wat het probleem kan zijn 
+
+(Week 20)
+
+de ding om conway op te lossen was niet gelukt en ik kon geen projecten meer te verzinnen in c++ dus heb ik om een taakje gevraagt 
+aan arthur en kreeg ik dat ik een functie kan overriden in irvs dus dat heb ik dan gemaakt voor hem en daar staat een pr voor
+toen bleek het dat die vulnerable packages had dus heb ik die geupdate en een pr voor gemaakt 
+daarna nog een taakje gevraagt aan arthur en toen moest ik het maken in tourplanner dat als iemand niet in afas bestaat dat die geen email krijgt van tourplanner
+dat gedaan pr voor gemaakt en toen weer gevraagt aan arthur of die een taakje maar toen had die geen belangrijke taakjes dus moest ik rond vragen aan andere vaste medewerkers 
+en toen had dennis een taakje voor me en moest ik een toolbox maken in veiligheid
+toen eerst een add form branch gemaakt en toen die af was een pr voor gemaakt
+en daarna een overview branch gemaakt en daarna weer een pr voor gemaakt 
+toen ging dennis op waiting for author en daarna had die een vergadering waardoor ik niet veder kon 
+dus toen had arthur blijkbaar weer een taakje in ictaanvraag en dat was dat als je kostenplaats niet 30 of 60 was 
+dat je 2 dingen niet mocht laten zien bij het selecteren maar was niet moeilijk dus was vrij snel klaar en staat een pr voor 
+
+(week 21)
+
+vandaag eerst me pull reqeust gepushed en toen moest ik eerst wat dingen veranderen in me toolbox form 
+toen daar een pr voor gemaakt en toen ging ik een detail page maken voor de toolbox 
+en daarna weer een pr gemaakt en toen ging ik een uitnodiging accepteren of weigeren pagina maken 
+daarna hoor de ik dat er weer iets niet goed was met kammerplanner en dat hed weer met de css te maken dus dat gedaan pr 
+en toen een taakje gevraagt aan arthur en dat ging over dat in ictaanvraag met service desk iets niet kon doen 
+
+(week 22)
+
+vandaag weer veder aan dat taakje dat ik van arthur had gekregen 
+daarna bleek het dat ze er nog niet echt uit zijn hoe ze het willen dus mijn pr staat nog op waiting for aithor
+dus had toen gevraagt aan arthur voor een nieuw taakje en dat was dat ik in tourplanner dat als een systeembeheerder mee gaat dat het bedrijf geen mail krijgt 
+nu in ictaanvraag de css veranderen want het is niet mooi 
+toen was daar iemand het mee eens dus die heeft het ook gecontroleert om te kijken of het mooier was en dat vond die dus kon me pr door
+daar na kreeg ik een nieuw taakje dat ik iets dat in python is geschreven naar een class libary c# moest maken dus daar ging ik naar kijken 
+toen kwam die persoon van ict-c weer lang dat als de optie velden te groot is 
+dat er een rij naast komt dus toen ging dat ook dan en heb dit eerst gedaan omdat het niet zo moeilijk is 
+nu gebrijken ze ict aanvraag ook soms op telefoon dus moet ik daar ook nog een keer na kijken maar dennis is ook dingen aan het doen op de test omgeving dus moet ik daar op wacht 
+en ben dan veder gegaan aan die class libary en nu werkt die als het goed is het is alleen dat ik nog nu het een nuget package van maken  
+dat is toen ook gelukt toen de optie ding 2 rijen gedaan en daar na een taak je gevraagt aan arthur en 
+dat was in tourplanner dat je de geplande naar bedrijf komen uit nodig ging dat je dat kan wijzigen en de persoon die ook mee wouw gaan der uit word gegooid
+dat toen gedaan en weer om een taakje gevraagt aan arthur en dat was dat bedrijven geen mails kregen als iemand komt 
+
+(Week 23)
+
+vandaag eerst gekeken naar tourplanner waarom die niet een email stuurt denk dat ik het heb gevonden maar weet niet helemaal hoe dat werkt dus moet dat zo aan arthur vragen of die het weet
+dus daar moest ik even op wachten dus ging ik maar testen of de DotNetVulnerabiltyRemover werkt met mijn nuget package en dat doet die 
+toen kreeg ik te horen van dennis dat arthur ziek is dus kon ik dat moeilijk uit vogelen wat 
+het probleem was dus had ik het aan dennis gevraagt en die vroeg zich af of 1 bedrijf die mail niet kreeg of meerdere dus heb een teams bericht gestuurd naar arthur er over
+die hoef ik niet te maken
+toen was arthur er weer dus toen kon ik weer iets verder met me taakjes en door kunnen zetten en 
+kreeg ook weer een nieuw taakje dat was in uitgiften dat je ook de locatie kan zien met hoeveel er ong bij elke plaats moeten zijn kwa kerstpakketen
+en je moest ook kunnen in voelen hoeveel er besteeld zijn met een input + welk jaar en dat moet ook in de database
+toen kreeg ik te horen van arthur dat bij tourplanner ze af en toe geen mail krijgen als ze hadden in gepland en dat is ook zo omdat iets dat jake had gemaakt dat blokeerde 
+dus dat was onhandig en onzin 
+daarna weer veder aan uigifte 
+toen waaren die dingen en heb daar pr's voor gemaakt daarna had gert-jan bedacht om naar .net Maui te kijken voor hem hoe het werkt en 
